@@ -120,7 +120,7 @@ ctx.font="30px Ariel";
     }
 window.addEventListener('keydown',function(e) {
     console.log(e);
-    if (e.code=="Space" || e.code=="ArrowUp"){
+    if (e.code=="Space" || e.code=="ArrowUp" || e.code=="Enter"){
 
         if (gameE=="stop" ){gameE="play";}
         else {
