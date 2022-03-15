@@ -118,8 +118,9 @@ ctx.font="30px Ariel";
     draw();
     
     }
-
+    
 window.addEventListener('keydown',function(e) {
+    console.log(e);
     if (e.code=="Space" || e.code=="ArrowUp" || e.code=="Enter"){
 
         if (gameE=="stop" ){gameE="play";}
@@ -127,12 +128,14 @@ window.addEventListener('keydown',function(e) {
             ras -= 70;}
         }
 });
-window.addEventListener("click",function(e) {
-    if (gameE=="stop" ){gameE="play";}
-    else {
-        ras -= 70;}
-    }
+    
+window.addEventListener('touchend',function() {
+        if (gameE=="stop" ){gameE="play";}
+        else {ras -= 70;}
+        
 });
+
+
 document.getElementById("start").addEventListener('click',function(){
     document.getElementById("start").innerHTML="Replay";
     document.getElementById("start").disabled = true;
