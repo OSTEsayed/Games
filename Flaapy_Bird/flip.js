@@ -1,19 +1,19 @@
 var head = new Image();
-head.src="image/nik.png";
+head.src="Flaapy_Bird/image/nik.png";
 var back = new Image();
-back.src="image/back.png";
+back.src="Flaapy_Bird/image/back.png";
 var up = new Image();
-up.src="image/up.png";
+up.src="Flaapy_Bird/image/up.png";
 var down = new Image();
-down.src="image/down.png";
+down.src="Flaapy_Bird/image/down.png";
 var land = new Image();
-land.src="image/land.png";
+land.src="Flaapy_Bird/image/land.png";
 var start = new Image();
-start.src="image/ready.png";
+start.src="Flaapy_Bird/image/ready.png";
 var over = new Image();
-over.src="image/over.png";
+over.src="Flaapy_Bird/image/over.png";
 var score = new Image();
-score.src="image/score.png";
+score.src="Flaapy_Bird/image/score.png";
 
 var ras=150;
 var gameE="stop";
